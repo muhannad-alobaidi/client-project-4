@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'DNAHeading-Black';
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/WOFF/DNAHeading-Black.woff) format('woff'), url(/fonts/WOFF2/DNAHeading-Black.woff) format('woff2');
+}
+@font-face {
+    font-family: 'DNAHeading-Bold';
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/WOFF/DNAHeading-Bold.woff) format('woff'), url(/fonts/WOFF2/DNAHeading-Bold.woff) format('woff2');
+}
+@font-face {
+    font-family: 'DNAHeading-DemiBold';
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/WOFF/DNAHeading-DemiBold.woff) format('woff'), url(/fonts/WOFF2/DNAHeading-DemiBold.woff) format('woff2');
+}
+@font-face {
+    font-family: 'DNANumerals-Bold';
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/WOFF/DNANumerals-Bold.woff) format('woff'), url(/fonts/WOFF2/DNANumerals-Bold.woff) format('woff2');
+}
+@font-face {
+    font-family: 'DNAText-Bold';
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/WOFF/DNAText-Bold.woff) format('woff'), url(/fonts/WOFF2/DNAText-Bold.woff) format('woff2');
+}
+@font-face {
+    font-family: 'DNAText-Medium';
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/WOFF/DNAText-Medium.woff) format('woff'), url(/fonts/WOFF2/DNAText-Medium.woff) format('woff2');
+}
+@font-face {
+    font-family: 'DNAText-Regular';
+    font-style: normal;
+    font-display: swap;
+    src: url(/fonts/WOFF/DNAText-Regular.woff) format('woff'), url(/fonts/WOFF2/DNAText-Regular.woff) format('woff2');
+}

@@ -1,0 +1,81 @@
+.bgImageWithTextCard {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 100%;
+  .inner {
+
+    width: 100%;
+
+    .bgimage{
+      width: 100%;
+      margin: auto;
+      height: 40vw;
+      max-height: 500px;
+      background-size: cover !important;
+      background-position: center !important;
+    }
+    .TextContainer{
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;      
+      text-align: center;
+      background: white;
+      margin-top: -10%;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      max-width: 800px;
+
+      .readingTime{
+        font-size: 12px;
+      }
+      h2{
+        color: #DA0070;
+      }
+    }
+
+  
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .TextContainer{
+    width: 50%;
+    padding: 4em;
+}
+}
+@media (max-width: 1440px) {
+
+  .TextContainer{
+    width: 55%;
+    padding: 3em;
+}
+}
+
+
+@media (max-width: 1024px) {
+
+  .TextContainer{
+    width: 65%;
+}
+  
+ 
+}
+
+@media (max-width: 767px) {
+
+  .TextContainer{
+    width: 80%;
+    padding: 2em;
+    margin-top: 0 !important;
+    gap: 10px !important;    
+    box-shadow: none !important;
+  
+
+
+}
+ 
+}

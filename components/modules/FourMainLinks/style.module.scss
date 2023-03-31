@@ -1,0 +1,65 @@
+.fourMainLinksContainer {
+  background-color: rgb(255, 255, 255);
+
+
+  .teemat{
+    display: flex;
+    justify-content: center;
+    min-height: 60px;
+    width: 30%;
+    margin: auto;
+    border-bottom: 3px solid #FF007D ;
+
+  }
+  .inner {
+    padding: 6em;
+    margin: 0 auto;
+    .fourMainLinks{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 10%;
+
+
+      .mainLink{
+        min-height: 80px;
+        min-width: 150px;
+        border-bottom: 3px solid #ff007b03 ;
+
+      }
+
+
+      .mainLink:hover{
+        border-bottom: 3px solid #FF007D ;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .inner{
+    padding: 3em !important;
+  }
+
+  .fourMainLinks{
+    grid-template-columns: 1fr 1fr !important;
+    gap: 5% !important;
+
+
+  }
+  
+  
+}
+
+@media (max-width: 767px) {
+
+  .inner{
+    padding: 2em !important;
+
+    .mainLink{
+      min-width: 125px !important;
+
+    }
+  }
+ 
+}

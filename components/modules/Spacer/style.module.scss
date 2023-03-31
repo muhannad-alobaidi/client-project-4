@@ -1,0 +1,17 @@
+.component {
+  &.size1 {
+    height: 20px;
+  }
+  &.size2 {
+    height: 40px;
+    @media screen and (min-width: 768px) {
+      height: 80px;    
+    }
+  }
+  &.size6 {
+    height: 40px;
+    @media screen and (min-width: 768px) {
+      height: 120px;    
+    }
+  }
+}

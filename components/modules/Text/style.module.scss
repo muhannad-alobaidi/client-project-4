@@ -1,0 +1,38 @@
+.text {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  .inner {
+    padding: 6em;
+    margin: 0 auto;
+    text-align: center;
+
+
+    .TextContainer{
+      margin: auto;
+    }
+
+  
+  }
+}
+
+@media (max-width: 1024px) {
+  
+  .text{
+    .inner{
+      padding: 4em 2em;
+  
+    }
+   }
+}
+
+@media (max-width: 767px) {
+  .text{
+    .inner{
+      padding: 4em 2em;  
+      
+      
+    }
+   }
+}

@@ -1,0 +1,46 @@
+.footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1380px;
+  margin: auto;
+  padding-bottom: 60px;
+  padding-top: 40px;
+  gap: 20px;
+
+
+  .logo{
+
+    display: flex;
+    align-items: center;
+
+    img{
+      height: 275px;
+      width: 275px;
+    }
+  }
+
+  .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    a{
+      margin-bottom:  .3em;
+      text-decoration: none;
+      color: #DA0070 ;
+    }
+    p{
+      margin: 0;
+    }
+  }
+}
+
+
+@media (max-width: 769px) {
+
+  
+  
+}

@@ -1,0 +1,125 @@
+.imageWithParagraph {
+  color: rgb(0, 0, 0);
+  margin: auto;
+  padding: 0 3em;
+  scroll-margin-top: 100px;
+  .inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+
+  }
+  .text{
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    text-align: left;
+    background-size: cover;
+
+    .source{
+      display: flex;
+      flex-direction: column;
+      
+      a{
+        color: #6C6C6C;
+        font-size: 14px;
+        line-height: 1.25rem;
+        margin: 0;
+        width: fit-content;
+      }
+
+      a:hover{
+        color: #FF007D;
+      }
+      p{
+        color: #000000;
+        font-size: 14px;
+        line-height: 1.25rem;
+        margin: 0;
+      }
+    }
+
+    .quot{
+      font-size: 1.95rem;
+      line-height: 2.5rem;
+      font-style: italic;
+    }
+  }
+
+  .image{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+  }
+  .image {
+   img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+  }
+}
+
+@media  (max-width: 1440px) {
+
+  .text{
+   
+      padding: 3em !important;
+    
+  }
+
+
+
+}
+@media  (max-width: 1024px) {
+
+  .inner{
+    grid-template-columns:  1fr !important;
+    padding: 3em;
+  }
+
+
+  .image{
+    height: 50vh;
+    min-height: 300px;
+  }
+
+  .text{
+   
+      padding: 2em 0 !important;
+
+
+      .quot{
+        font-size: 1.5rem !important;
+        line-height: 2rem !important;
+      }
+    
+  }
+
+}
+@media  (max-width: 767px) {
+
+  .imageWithParagraph {
+
+    padding: 0 0;
+
+  }
+
+
+  .inner{
+    padding: 1.25em;
+  }
+
+  
+  .text{
+   
+    padding: 2em 0 !important;
+
+   
+  
+}
+
+}

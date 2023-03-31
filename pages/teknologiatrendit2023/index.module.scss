@@ -1,0 +1,152 @@
+@import "../../styles/fonts.css";
+
+
+.index {
+  background-color: #fff;
+  padding: 0 0;
+  .content {
+    padding: 0 ;
+
+
+    .goUpBtn{
+      position: fixed;
+      bottom: 20px; 
+      right: 20px;
+      z-index: 1000;
+      border: 1px solid white;
+      background-color: #DA0070;
+      border-radius: 20px;
+      height: 40px;
+      width: 40px;
+      box-shadow: rgb(116 1 60 / 33%) 0px 8px 24px;
+      font-size: .5rem;
+
+      img{
+        filter: invert(1);
+      }
+    }
+
+    .modualsSection1{
+      max-width: 1380px;
+      margin: auto;
+
+
+   }
+    
+  }
+
+  .listContainer{
+    display: grid;
+      grid-template-columns: 1fr ;
+      max-width: 500px;
+      margin:auto ;
+
+    ul{
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: start;
+
+      li{
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 20px;
+
+
+        span{
+          display: flex;
+          font-size: 3rem;
+          font-family: 'DNANumerals-Bold';
+          min-width: 55px;
+        }
+
+        p{
+          padding-left: 40px;
+          margin-top: 15px;
+         
+        }
+
+        a{
+          color: #DA0070 ;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px)  {
+  
+  .index{
+    .content{
+      padding: 0;
+
+      .modualsSection1{
+        max-width: 1280px;
+        margin: auto;
+  
+  
+     }
+
+    }
+   
+  }
+
+}
+@media (max-width: 1024px)  {
+  
+  .index{
+    .content{
+      padding: 0;
+    }
+   
+    .listContainer{
+      ul{
+        li{
+          min-height: 230px;
+        }
+      }
+    }
+    
+   
+  }
+
+}
+
+
+@media (max-width: 767px)  {
+  .index{
+    .content{
+
+      .modualsSection2{
+        .textAlign{
+          padding-top: 0;
+        }
+      }
+    }
+    .listContainer{
+      gap: 0;
+      grid-template-columns: 1fr;
+
+      ul{
+        
+        li{
+
+          min-height: 50px;
+
+          p{
+            
+            padding-left: 10px;
+           
+          }
+        }
+        li:first-child{
+          padding-top: 0 !important;
+        }
+      }
+    }
+  }
+}
+

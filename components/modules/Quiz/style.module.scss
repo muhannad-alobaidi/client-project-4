@@ -1,0 +1,306 @@
+.quiz {
+  background: #DA0070;
+  color: rgb(254, 254, 254);
+  display: flex;
+  justify-content: center;
+  max-width: 760px;
+  margin: auto;
+  border-radius: 5px;
+  scroll-margin-top: 100px;
+
+  h2{
+    font-size: 2.75rem;
+  }
+
+
+
+  .inner {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+
+    .quizContainer{
+      padding: 6em 8em;
+    }
+
+    .firstQuestionContainer{
+      padding: 0 2em 5em;
+
+      .slider{
+        padding-top: 1em;
+      }
+
+      .css-b04pc9{
+        opacity: 1 !important;
+      }
+      .sliderAnswers{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1em;
+        text-transform: uppercase;
+
+        p{
+          font-size: 10px;
+          max-width: 45px;
+          line-height: 14px;
+        }
+
+      }
+    }
+
+    .breakLine{
+      height: 3px;
+      background: #FFFFFF;
+      width: 30%;
+      margin: auto;
+    }
+
+    .secondQuestionContainer{
+      padding: 6em 2em;
+
+    }
+
+    .seeWhatOtherAnswer{
+      padding: 2em 0 3em 0;
+
+    }
+
+    .muiltyChoiceAnswers{
+
+      display: flex ;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      gap: 1em;
+
+
+      button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #F5F5F5;
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+        padding: 1px 2em;
+        width: 85%;
+        max-width: 100%;
+        height: 50px;
+        min-width: 310px;
+        font-size: 14px;
+        color: #484848;
+        cursor: pointer;
+        text-transform: uppercase ;
+       
+      }
+
+      button:hover{
+        filter: drop-shadow(0 0 0.3rem rgba(75, 18, 66, 0.318));
+      }
+
+      .btnActive{
+        border: 2px solid #000000;
+        color: #000000;
+        transform: scale(1.1) !important;
+      }
+    }
+    .submitBtn{
+
+
+      display: inline-block;
+      text-align: center;
+      line-height: 36px;
+      height: 40px;
+      color: #000000;
+      background: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      border-radius: 20px;
+      font-size: 14px;
+      max-width: 145px;
+      cursor: pointer;
+      text-decoration: none;
+      padding: 0 20px;
+      min-width: 125px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      outline: none; 
+    
+
+    }
+
+
+    .charts{
+      padding: 5%;
+      max-width: 660px;
+      margin: auto;
+
+      .chartTitle{
+        margin-bottom: 2em;
+      }
+
+      .questionChart{
+        margin-bottom: 2em;
+        text-align: start;
+
+        p{
+          font-size: 1.5rem;
+        }
+      }
+      .areaCharts{
+        width: 100%;
+        height: 25vw;
+        display: flex;
+        justify-content: center;
+      }
+      .barChartContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .barAndTextContainer{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+
+          .barText{
+            width: 100%;
+            text-align: start;
+
+            p{
+              line-height: .5rem;
+            }
+          }
+
+          .barContainer{
+            display: flex;
+
+
+            .bar{
+              height: 40px;
+              background: linear-gradient(270deg, #FF007D 0%, #F5F5F5 100%);
+              border-radius: 5px;
+            }
+
+            .barPrecentage{
+              font-size: 35px;
+              padding-left: 20px;
+              font-family: 'DNANumerals-Bold';
+            }
+          }
+        }
+      }
+    }
+  
+  }
+}
+
+@media (max-width: 1440px) {
+
+  .quiz{
+
+    .questionChart{
+
+
+      p{
+        font-size: 1.25rem !important;
+      }
+    }
+
+    h2{
+      font-size: 1.75rem;
+    }
+  }
+
+  .quizContainer{
+    max-width: 660px;
+    margin: auto;
+  }
+  
+ 
+  
+}
+@media (max-width: 1024px) {
+
+ 
+  
+}
+
+@media (max-width: 767px) {
+  .quiz{
+    margin: 0;
+    h2{
+      font-size: 1.5rem;
+    }
+  }
+
+  .inner {
+    padding: 0 0 2em 0 !important;
+
+    .quizContainer{
+      padding: 6em 0 !important;
+    }
+
+    .firstQuestionContainer{
+      padding: 3em 1em !important;
+
+      .sliderAnswers{
+        padding-top: 2em !important;
+
+        p{
+          font-size: 0.65rem;
+        }
+      }
+    }
+
+    .muiltyChoiceAnswers{
+      button{
+        min-width: 250px !important;
+      }
+    }
+
+    button{
+      font-size: 12px !important;
+    }
+
+    .charts{
+     
+      .areaCharts{
+        min-height: 200px;
+
+        tspan{
+          font-size: 10px ;
+        }
+      }
+      .barChartContainer{
+      
+
+        .barAndTextContainer{
+
+          .barText{
+             
+  
+            p{
+              font-size: .7rem;
+            }
+          }
+                  
+          .barContainer{
+
+            .bar{
+              height: 25px !important;
+             
+            }
+
+            .barPrecentage{
+              font-size: 25px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

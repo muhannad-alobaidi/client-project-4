@@ -1,0 +1,159 @@
+.areticalWithToggle {
+  color: rgb(255, 255, 255);
+  padding: 3em;
+  background: #551C3E;
+  margin: 0 3em;
+  box-sizing: border-box;
+  border-radius: 5px;
+  .inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+  }
+  .text{
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    padding: 0 3em;
+    text-align: left;
+    background-size: cover;
+
+   
+
+
+    .quot{
+      font-size: 1.95rem;
+      line-height: 2.5rem;
+      font-style: italic;
+    }
+
+   
+  }
+
+  .image{
+    min-height: 100%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+
+    img{
+      border-radius: 3px;
+    }
+
+  }
+
+
+
+
+  
+.hiddinArticalContainer{
+
+  .readArtical{
+    display: flex;
+    justify-content: center;
+    p{
+      font-size: 12px;
+    }
+  }
+
+  .togglebutton{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    height: 30px;
+
+    .arrow {
+      box-sizing: border-box;
+      height: fit-content;
+      width: fit-content;
+      background: none;
+      border: none;
+    }
+  
+
+    
+  }
+  .hideartical{
+    display: none;
+  }
+  .showbox{
+    padding: 3.5em 3em;
+    background-color: white;
+    color: black;
+
+  }
+
+  .displayArtical{
+    display: block;
+  }
+
+  .togglebox{
+    overflow: hidden;
+    scroll-margin-top: 100px;
+  }
+
+
+}
+  
+
+}
+
+@media  (max-width: 1024px) {
+
+  .areticalWithToggle{
+    padding: 2em;
+    margin: 0 2em;
+
+  }
+.image{
+  background-size: contain !important;
+
+}
+
+
+  .text{
+   
+
+
+      .quot{
+        font-size: 1.5rem !important;
+        line-height: 2rem !important;
+      }
+    
+  }
+
+}
+@media  (max-width: 767px) {
+
+  .areticalWithToggle{
+    padding: 1.25em;
+    margin: 0;
+
+  }
+
+  .showbox{
+    padding: 1.5em 1em !important;
+  }
+
+  .image{
+    background-size: contain !important;
+  
+  }
+  
+
+  .inner{
+    grid-template-columns:  1fr !important;
+
+   
+  }
+  .text{
+   
+    padding: 2em 0 !important;
+  
+}
+
+}
