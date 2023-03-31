@@ -9,12 +9,12 @@ import { addDoc, collection, doc, setDoc, getDoc, increment, updateDoc } from "f
 
 // Your web app's Firebase configuration
     const firebaseConfig = {
-    apiKey: "AIzaSyDndfvnSudOD2kvKUolPWtmKzGUlIZsv3s",
-    authDomain: "dna-trendingreport-quizzes.firebaseapp.com",
-    projectId: "dna-trendingreport-quizzes",
-    storageBucket: "dna-trendingreport-quizzes.appspot.com",
-    messagingSenderId: "267911628443",
-    appId: "1:267911628443:web:6525d2fbdede9bb324283e"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
   };
   
   // Initialize Firebase
